@@ -18,3 +18,21 @@
 * **Understand Before Modifying**: Identify the precise root cause before editing code.
 * **Scope Control**: Do not touch unrelated functions, assets, or administrative interfaces.
 * **Regression Verification**: Review and test affected workflows after any modification.
+
+## Change Tracking & Documentation Protection
+
+### Change Tracking & Documentation
+* **Mandatory Changelog Updates**: After any implementation, bug fix, feature change, or behavior change, the AI must update `CHANGELOG.md` with a concise entry describing:
+  * Date/version if known
+  * What changed
+  * Affected area/files
+  * Any important behavior or compatibility note
+* **Meaningful Entries Only**: `CHANGELOG.md` should contain meaningful project-level changes only. Do not add entries for trivial formatting, comments, or unchanged investigations.
+* **Task Integration**: The changelog update should be part of the same implementation task unless the user explicitly asks not to update it.
+
+### Project Documentation Protection
+* **Protected Status**: `project-doc.md` is a protected project document.
+* **Explicit Permission Required**: AI must **never create, modify, rewrite, reorganize, or update `project-doc.md` without explicit user permission**.
+* **Reading Allowed**: Reading `project-doc.md` is allowed and required when project rules instruct the AI to read it.
+* **No Automatic Updates**: Even when an implementation changes documented behavior, the AI must NOT automatically update `project-doc.md`. Do not interpret a general request to implement a feature as permission to modify `project-doc.md`.
+* **Report Suggestions**: If `project-doc.md` appears to require an update, the AI should report the suggested documentation change to the user and wait for explicit permission.

@@ -288,6 +288,34 @@ function voorodak_get_login_page_id()
     return (int) apply_filters('wpml_object_id', $login_page_id, 'page', true);
 }
 
+/**
+ * Resolve language-specific logo URL via WPML Media Translation if available.
+ *
+ * @param string $logo
+ * @return string
+ */
+function voorodak_get_logo_url($logo)
+{
+    if (empty($logo)) {
+        return '';
+    }
+
+    $attachment_id = attachment_url_to_postid($logo);
+    if (!$attachment_id) {
+        return $logo;
+    }
+
+    $translated_attachment_id = (int) apply_filters('wpml_object_id', $attachment_id, 'attachment', true);
+    if ($translated_attachment_id && $translated_attachment_id !== $attachment_id) {
+        $translated_logo = wp_get_attachment_url($translated_attachment_id);
+        if (!empty($translated_logo)) {
+            return $translated_logo;
+        }
+    }
+
+    return $logo;
+}
+
 function voorodak_is_login_register_page()
 {
     $login_page_id = voorodak_get_login_page_id();

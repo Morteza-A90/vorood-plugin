@@ -6,7 +6,7 @@ $login_page_id = voorodak_get_login_page_id();
 $bg_color = $settings['bg_color'] ?? '#ffffff';
 $button_color = $settings['button_color'] ?? '#5498fa';
 $button_color_hover = $settings['button_color_hover'] ?? '#2c61a6';
-$logo = $settings['logo'] ?? '';
+$logo = voorodak_get_logo_url($settings['logo'] ?? '');
 $cover = $settings['cover'] ?? '';
 $otp_length = $settings['otp_length'] ?? '6';
 $otp_boxed = $settings['otp_boxed'] ?? '';
@@ -27,7 +27,7 @@ if ($login_type == 'mobile'){
     $username_placeholder = __('شماره موبایل یا ایمیل یا نام کاربری', 'voorodak');
 }
 $reset_token = isset($_GET['reset_token']) ? sanitize_text_field(wp_unslash($_GET['reset_token'])) : null;
-$form_name = !empty($settings['form_name']) ? $settings['form_name'] : __('ورود / ثبت نام', 'voorodak');
+$form_name = !empty($settings['form_name']) ? __($settings['form_name'], 'voorodak') : __('ورود / ثبت نام', 'voorodak');
 $term_editor = $settings['term_editor'] ?? '';
 $button_style = '--voorodak-button-color: ' . $button_color . '; --voorodak-button-color-hover: ' . $button_color_hover . ';';
 $captcha_enabled = !empty($settings['captcha_enabled']);
