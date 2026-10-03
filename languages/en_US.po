@@ -1,0 +1,412 @@
+# Copyright (C) 2026 Voorodak Plugin
+# This file is distributed under the same license as the Voorodak plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Voorodak 6.2.0\n"
+"Report-Msgid-Bugs-To: https://taktheme.com/\n"
+"POT-Creation-Date: 2026-10-03 12:00+0000\n"
+"PO-Revision-Date: 2026-10-03 18:00+0330\n"
+"Last-Translator: Voorodak Team <info@taktheme.com>\n"
+"Language-Team: English (United States) <en_US@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: voorodak\n"
+
+
+#: view/html-shortcode.php:23
+msgid "شماره موبایل"
+msgstr "Mobile number"
+
+#: view/html-shortcode.php:25
+msgid "شماره موبایل یا ایمیل"
+msgstr "Mobile number or email"
+
+#: view/html-shortcode.php:27
+msgid "شماره موبایل یا ایمیل یا نام کاربری"
+msgstr "Mobile number, email, or username"
+
+#: view/html-shortcode.php:30
+msgid "ورود / ثبت نام"
+msgstr "Login / Register"
+
+#: view/html-shortcode.php:63
+msgid "بازگشت"
+msgstr "Back"
+
+#: view/html-shortcode.php:85
+msgid "سلام!"
+msgstr "Hello!"
+
+#: view/html-shortcode.php:91
+msgid "اطلاعات کاربری"
+msgstr "User information"
+
+#: view/html-shortcode.php:93
+#, php-format
+msgid "لطفا %s خود را وارد کنید"
+msgstr "Please enter your %s"
+
+#: view/html-shortcode.php:101
+msgid "کد امنیتی"
+msgstr "Security code"
+
+#: view/html-shortcode.php:106
+msgid "ورود"
+msgstr "Login"
+
+#: view/html-shortcode.php:114
+msgid "کد تایید"
+msgstr "Verification code"
+
+#: view/html-shortcode.php:118
+msgid "نام"
+msgstr "First name"
+
+#: view/html-shortcode.php:119
+msgid "نام خانوادگی"
+msgstr "Last name"
+
+#: view/html-shortcode.php:123
+msgid "کد ملی"
+msgstr "National ID"
+
+#: view/html-shortcode.php:126
+msgid "ایمیل"
+msgstr "Email"
+
+#: view/html-shortcode.php:130
+msgid "رمز عبور"
+msgstr "Password"
+
+#: view/html-shortcode.php:131
+msgid "نمایش رمز عبور"
+msgstr "Show password"
+
+#: view/html-shortcode.php:139
+#, php-format
+msgid "رقم %1$d از %2$d کد تایید"
+msgstr "Digit %1$d of %2$d verification code"
+
+#: view/html-shortcode.php:150
+msgid "ورود با رمز عبور"
+msgstr "Login with password"
+
+#: view/html-shortcode.php:161
+msgid "تا دریافت مجدد کد"
+msgstr "Until resending code"
+
+#: view/html-shortcode.php:162
+msgid "دریافت مجدد کد تایید"
+msgstr "Resend verification code"
+
+#: view/html-shortcode.php:163
+msgid "دریافت کد"
+msgstr "Get code"
+
+#: view/html-shortcode.php:169
+msgid "تایید"
+msgstr "Confirm"
+
+#: view/html-shortcode.php:173
+msgid "رمز عبور را وارد کنید"
+msgstr "Enter password"
+
+#: view/html-shortcode.php:183
+msgid "ورود با رمز یکبار مصرف"
+msgstr "Login with one-time password"
+
+#: view/html-shortcode.php:188
+msgid "فراموشی رمز عبور"
+msgstr "Forgot password"
+
+#: view/html-shortcode.php:244
+msgid "تغییر رمز عبور"
+msgstr "Change password"
+
+#: view/html-shortcode.php:247
+msgid "رمز عبور جدید"
+msgstr "New password"
+
+#: view/html-shortcode.php:255
+msgid "تکرار رمز عبور جدید"
+msgstr "Confirm new password"
+
+#: includes/class-voorodak.php:748
+msgid "پنهان کردن رمز عبور"
+msgstr "Hide password"
+
+#: includes/class-voorodak.php:750
+msgid "لطفا این قسمت را خالی نگذارید"
+msgstr "Please do not leave this field empty"
+
+#: includes/class-voorodak.php:751
+msgid "شماره موبایل صحیح نمی‌باشد."
+msgstr "Mobile number is not valid."
+
+#: includes/class-voorodak.php:752
+msgid "شماره موبایل یا ایمیل صحیح نمی‌باشد."
+msgstr "Mobile number or email is not valid."
+
+#: includes/class-voorodak.php:753
+msgid "لطفا کد امنیتی را وارد کنید"
+msgstr "Please enter the security code"
+
+#: includes/class-voorodak.php:754
+msgid "نام و نام خانوادگی باید فقط با حروف فارسی وارد شود"
+msgstr "First and last name must contain only Persian characters"
+
+#: includes/class-voorodak.php:755
+msgid "کد ملی الزامی میباشد"
+msgstr "National ID is required"
+
+#: includes/class-voorodak.php:756
+msgid "کد ملی معتبر نمیباشد"
+msgstr "National ID is not valid"
+
+#: includes/class-voorodak.php:758
+#, php-format
+msgid "کد تایید باید %s رقم باشد"
+msgstr "Verification code must be %s digits"
+
+#: includes/class-voorodak.php:759
+msgid "کد تایید باید عددی باشد"
+msgstr "Verification code must be numeric"
+
+#: includes/class-voorodak.php:760
+msgid "لطفا رمز عبور را وارد کنید"
+msgstr "Please enter the password"
+
+#: includes/class-voorodak.php:762
+#, php-format
+msgid "رمز عبور باید حداقل %s کاراکتر باشد"
+msgstr "Password must be at least %s characters"
+
+#: includes/class-voorodak.php:763
+msgid "رمز عبور باید شامل حداقل یک حرف انگلیسی و یک عدد باشد"
+msgstr "Password must include at least one English letter and one number"
+
+#: includes/class-voorodak.php:764
+msgid "تکرار رمز عبور با رمز جدید مطابقت ندارد"
+msgstr "Password confirmation does not match the new password"
+
+#: includes/class-voorodak.php:765
+msgid "در حال ارسال ..."
+msgstr "Sending..."
+
+#: includes/class-voorodak.php:172
+msgid "تعداد درخواست‌های ارسال کد بیش از حد مجاز است، چند دقیقه صبر کنید."
+msgstr "Too many requests to send code, please wait a few minutes."
+
+#: includes/class-voorodak.php:181
+msgid "تعداد درخواست‌های ارسال کد برای این حساب بیش از حد مجاز است، چند دقیقه صبر کنید."
+msgstr "Too many requests to send code for this account, please wait a few minutes."
+
+#: includes/class-voorodak.php:214
+msgid "درخواست شما قابل پردازش نیست، چند دقیقه صبر کنید."
+msgstr "Your request cannot be processed, please wait a few minutes."
+
+#: includes/class-voorodak.php:240
+msgid "درخواست‌ها بیش از حد مجاز است، چند دقیقه صبر کنید."
+msgstr "Too many requests, please wait a few minutes."
+
+#: includes/class-voorodak.php:250
+msgid "درخواست‌های مشکوک شناسایی شد، چند دقیقه صبر کنید."
+msgstr "Suspicious requests detected, please wait a few minutes."
+
+#: includes/class-voorodak.php:323
+msgid "درخواست نامعتبر می‌باشد."
+msgstr "Invalid request."
+
+#: includes/class-voorodak.php:344
+msgid "کد امنیتی صحیح نیست."
+msgstr "Security code is incorrect."
+
+#: includes/class-voorodak.php:980
+msgid "کاربری با چنین شماره موبایلی در سایت وجود ندارد."
+msgstr "No user with this mobile number exists on the site."
+
+#: includes/class-voorodak.php:1002
+msgid "کاربری با چنین مشخصات در سایت وجود ندارد، لطفا با شماره موبایل وارد شوید."
+msgstr "No user with these details exists on the site, please log in with your mobile number."
+
+#: includes/class-voorodak.php:1036
+msgid "رمز عبور صحیح نمی‌باشد."
+msgstr "Password is incorrect."
+
+#: includes/class-voorodak.php:1079
+msgid "رمز یکبار مصرف ایجاد نشده یا منقضی شده است."
+msgstr "One-time password has not been created or has expired."
+
+#: includes/class-voorodak.php:1087
+msgid "کد تایید صحیح نمی‌باشد."
+msgstr "Verification code is incorrect."
+
+#: includes/class-voorodak.php:1155
+msgid "درخواست بازیابی نامعتبر می‌باشد."
+msgstr "Password reset request is invalid."
+
+#: includes/class-voorodak.php:1220
+msgid "توکن بازیابی رمز عبور صحیح نمی‌باشد."
+msgstr "Password reset token is invalid."
+
+#: includes/class-voorodak.php:1232
+msgid "ایمیل بازیابی رمز عبور قبلا برای شما ارسال شده است."
+msgstr "Password reset email has already been sent to you."
+
+#: includes/class-voorodak.php:1240
+#, php-format
+msgid "درخواست تغییر رمز برای %s"
+msgstr "Password change request for %s"
+
+#: includes/class-voorodak.php:1242
+#, php-format
+msgid "جهت تغییر رمز عبور حساب خود در سایت %s کافیست روی لینک زیر کلیک نمایید:"
+msgstr "To change your account password on %s, click the link below:"
+
+#: includes/class-voorodak.php:1244
+msgid "این لینک فقط 2 ساعت اعتبار دارد."
+msgstr "This link is valid for 2 hours only."
+
+#: includes/class-voorodak.php:1248
+msgid "ایمیل بازیابی رمز عبور برای شما ارسال شد، بخش inbox و spam ایمیل خود را چک کنید"
+msgstr "Password reset email sent to you, please check your inbox and spam folder"
+
+#: includes/class-voorodak.php:1254
+msgid "مشکلی در ارسال ایمیل بازیابی پیش آمده است، مجدد تلاش کنید"
+msgstr "An error occurred while sending the reset email, please try again"
+
+#: includes/class-voorodak.php:1261
+#, php-format
+msgid "کد تایید ثبت نام در %s"
+msgstr "Registration verification code for %s"
+
+#: includes/class-voorodak.php:1263
+#, php-format
+msgid "کد تایید ثبت نام شما در سایت %s:"
+msgstr "Your registration verification code on %s:"
+
+#: includes/class-voorodak.php:1266
+msgid "این کد فقط 2 دقیقه اعتبار دارد."
+msgstr "This code is valid for 2 minutes only."
+
+#: includes/class-voorodak.php:1274
+msgid "مشکلی در ارسال ایمیل کد تایید پیش آمده است، مجدد تلاش کنید"
+msgstr "An error occurred while sending the verification code email, please try again"
+
+#: includes/class-voorodak.php:1288
+msgid "رمزهای عبور مطابقت ندارند."
+msgstr "Passwords do not match."
+
+#: includes/class-voorodak.php:1292
+#, php-format
+msgid "رمز عبور باید حداقل %s کاراکتر و شامل حروف انگلیسی و عدد باشد."
+msgstr "Password must be at least %s characters and contain English letters and numbers."
+
+#: includes/class-voorodak.php:1306
+msgid "با موفقیت وارد شدید، لطفا صبر کنید ..."
+msgstr "Logged in successfully, please wait..."
+
+#: includes/class-voorodak.php:1344
+msgid "نام کاربری معتبر نمی‌باشد."
+msgstr "Username is not valid."
+
+#: includes/class-voorodak.php:1352
+#, php-format
+msgid "کاربر(%s)"
+msgstr "User(%s)"
+
+#: includes/class-voorodak.php:1381
+msgid "خطایی در ثبت نام پیش آمده است، مجدد تلاش کنید"
+msgstr "An error occurred during registration, please try again"
+
+#: includes/class-voorodak.php:1429
+msgid "کاربری با چنین مشخصات در سایت وجود ندارد."
+msgstr "No user with these details exists on the site."
+
+#: includes/class-voorodak.php:1445
+#, php-format
+msgid "کد تایید برای شماره %s پیامک شد"
+msgstr "Verification code sent via SMS to %s"
+
+#: includes/class-voorodak.php:1449
+#, php-format
+msgid "حساب کاربری با شماره موبایل %s وجود ندارد. برای ساخت حساب جدید، کد تایید برای این شماره ارسال گردید."
+msgstr "No account found with mobile number %s. A verification code was sent to this number to create a new account."
+
+#: includes/class-voorodak.php:1457
+msgid "کاربری با چنین مشخصات در سایت وجود ندارد و ثبت نام کاربران غیرفعال است."
+msgstr "No user with these details exists on the site and user registration is disabled."
+
+#: includes/class-voorodak.php:1471
+#, php-format
+msgid "حساب کاربری با ایمیل %s وجود ندارد. برای ساخت حساب جدید، کد تایید برای این ایمیل ارسال گردید."
+msgstr "No account found with email %s. A verification code was sent to this email to create a new account."
+
+#: includes/class-voorodak.php:1502
+msgid "کد تایید برای این روش ورود معتبر نمی‌باشد."
+msgstr "Verification code is not valid for this login method."
+
+#: includes/class-voorodak.php:1513
+msgid "ثبت نام کاربران غیرفعال است."
+msgstr "User registration is disabled."
+
+#: includes/class-voorodak.php:1531
+msgid "نام و نام خانوادگی الزامی می‌باشد."
+msgstr "First and last name are required."
+
+#: includes/class-voorodak.php:1536
+msgid "نام و نام خانوادگی باید فقط با حروف فارسی وارد شود."
+msgstr "First and last name must contain only Persian characters."
+
+#: includes/class-voorodak.php:1541
+msgid "کد ملی الزامی می‌باشد."
+msgstr "National ID is required."
+
+#: includes/class-voorodak.php:1546
+msgid "کد ملی معتبر نمی‌باشد."
+msgstr "National ID is not valid."
+
+#: includes/class-voorodak.php:1551
+msgid "ایمیل الزامی می‌باشد."
+msgstr "Email is required."
+
+#: includes/class-voorodak.php:1556
+msgid "ایمیل معتبر نمی‌باشد."
+msgstr "Email is not valid."
+
+#: includes/class-voorodak.php:1561
+msgid "ایمیل تکراری می‌باشد."
+msgstr "Email already exists."
+
+#: includes/class-voorodak.php:1566
+msgid "رمز عبور الزامی می‌باشد."
+msgstr "Password is required."
+
+#: includes/class-voorodak.php:1571
+#, php-format
+msgid "رمز عبور باید حداقل %s کاراکتر و شامل حروف و عدد باشد."
+msgstr "Password must be at least %s characters and include letters and numbers."
+
+#: includes/class-voorodak.php:1576
+msgid "با موفقیت ثبت نام شدید، لطفا صبر کنید ..."
+msgstr "Registered successfully, please wait..."
+
+#: includes/class-voorodak.php:1622
+msgid "لطفا شماره موبایل یا ایمیل را صحیح وارد نمایید."
+msgstr "Please enter a valid mobile number or email."
+
+#: includes/class-voorodak.php:1654
+msgid "رمز عبور تغییر کرد، در حال ورود ..."
+msgstr "Password changed successfully, logging in..."
+
+#: includes/class-voorodak.php:1730
+msgid "حساب کاربری"
+msgstr "Account"
+
+#: includes/class-voorodak.php:1732
+msgid "ورود/عضویت"
+msgstr "Login/Register"
